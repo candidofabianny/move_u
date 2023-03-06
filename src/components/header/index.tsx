@@ -6,10 +6,10 @@ import Styles from "./header.module.css";
 import {linkRel} from 'link-rel'
 
 const Header = () => {
-    return <div className={Styles.container}>
+    return <div className={Styles.background}>
+        <div className={Styles.container}>
         <div className={Styles.logo}>
             <Image src={Logo} alt={"logo"} />
-
         </div>
         <div className={Styles.menu}>
             <nav>
@@ -19,10 +19,9 @@ const Header = () => {
                 <Link href="/">Contact </Link>
                 </nav>
         </div>
-        <div className={Styles.buttonAction}>
-                <button className={Styles.buttonshare}>Share it</button>
         </div>
     </div>
+    
 
 }
 
