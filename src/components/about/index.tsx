@@ -10,8 +10,7 @@ const About = () => {
         <div className={Styles.image}>
         <Image src={Back} alt={"Tower Background"} />
         </div>
-        <button>Hello</button>
-        
+        <button className={Styles.button}>Share it</button>
     </div>
 }
 
