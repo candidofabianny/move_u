@@ -14,7 +14,7 @@ const Header = () => {
         <div className={Styles.menu}>
             <nav>
                 <Link href="/">Home </Link>
-                <Link href="/" >About </Link>
+                <Link href="/">About </Link>
                 <Link href="/">Listing </Link>
                 <Link href="/">Contact </Link>
                 </nav>
