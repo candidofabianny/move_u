@@ -25,50 +25,56 @@
     font-size: 13px;
     
     color: #1E255E;
-
+    margin-top: 120px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-right: 90px;
 }
 
+.image{
+    position: absolute;
+    left: 18.5%;
+    margin-top: 155px;
+}
+
 .a{
     margin-top: -38px;
-    margin-left: 82px;
+    margin-left: 102px;
 }
 
 .b{
     margin-top: -50px;
-    margin-left: 359px;
+    margin-left: 379px;
 }
 
 .c{
     margin-top: -48px;
-    margin-left: 560px;
+    margin-left: 540px;
 }
 
 .d{
     margin-top: -49px;
-    margin-left: 830px;
+    margin-left: 795px;
 }
 
 .e{
     margin-top: -38px;
-    margin-left: 112px;
+    margin-left: 152px;
 }
 
 .f{
     margin-top: -50px;
-    margin-left: 330px;
+    margin-left: 360px;
 }
 
 .g{
     margin-top: -48px;
-    margin-left: 560px;
+    margin-left: 535px;
 }
 
 .h{
     width: 200px;
     margin-top: -49px;
-    margin-left: 800px;
+    margin-left: 770px;
 }
 
 
@@ -84,10 +90,7 @@
 }
 
 .circle{
-    border-radius: 580px;
     border-color: transparent;
-    height: 156px;
-    width: 153px;
     margin-right: 90px;
 
 }

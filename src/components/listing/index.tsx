@@ -1,27 +1,20 @@
 import React from "react";
 import Image from "next/image";
 import Styles from "./listing.module.css"
+import Background from "/public/images/listing_images.svg"
+
 
 const Listing = () => {
     return <div className={Styles.container}>
         <h1 className={Styles.title}>MoveU List</h1>
-        <div className={Styles.position}>
-        <button className={Styles.circle}> <img src="/images/circle_one.svg" height ="150px" width="145px" /></button>
-        <button className={Styles.circle}> <img src="/images/circle_two.svg" height ="150px" width="145px" /></button>
-        <button className={Styles.circle}> <img src="/images/circle_three.svg" height ="150px" width="145px" /></button>
-        <button className={Styles.circle}> <img src="/images/circle_four.svg" height ="150px" width="145px" /></button>
-    </div>
+        <div className={Styles.image}>
+        <Image src={Background} alt={"Before Sunrise Image"} />
+        </div>
     <div className={Styles.subtext}>
         <h1 className={Styles.a}>Before Sunrise</h1>
         <h1 className={Styles.b}>Dear Ex</h1>
         <h1 className={Styles.c}>Desconectados</h1>
         <h1 className={Styles.d}>Lykke-Per</h1>
-    </div>
-    <div className={Styles.positionb}>
-        <button className={Styles.circle}> <img src="/images/circle_five.svg" height ="150px" width="145px" /></button>
-        <button className={Styles.circle}> <img src="/images/circle_six.svg" height ="150px" width="145px" /></button>
-        <button className={Styles.circle}> <img src="/images/circle_seven.svg" height ="150px" width="145px" /></button>
-        <button className={Styles.circle}> <img src="/images/circle_eight.svg" height ="150px" width="145px" /></button>
     </div>
     <div className={Styles.subtext}>
         <h1 className={Styles.e}>Mommy</h1>
