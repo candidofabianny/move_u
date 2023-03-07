@@ -6,6 +6,7 @@ import Welcome from '@/components/welcome'
 import Banner from '@/components/banner'
 import About from '@/components/about'
 import Listing from '@/components/listing'
+import SynopsisOne from '@/components/synopsis_one'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Banner />
       <About />
       <Listing />
+      <SynopsisOne />
       </div>
   )
 }
