@@ -21,6 +21,18 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.btext{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 49px;
+    margin-top: -86px;
+    margin-left: -10px;
+
+    color: #1E255E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .h2{
     font-weight: 200;
     font-size: 9px;
